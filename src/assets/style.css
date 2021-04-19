@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap');
+
+html, body {
+  font-family: 'Titillium Web', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-align: center; */
+  color: #a9b1d5;
+  background: #14141b;
+}
+
+h1, p, label {
+  font-weight: 200;
+}
+
+#app {
+  display: flex;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  background: #1a1b26;
+  padding: 20px;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.calculator hr {
+  width: 100%;
+  border-top: 1px solid #707da0;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.input {
+  font-size: 12pt;
+  padding: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background: none;
+  outline: none;
+  border: 1px solid #3e599f;
+  border-radius: 4px;
+  color: #a9b1d5;
+}
+
+.output {
+  font-size: 12pt;
+  padding: 5px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  background: none;
+  outline: none;
+  border: 1px solid #707da0;
+  border-radius: 4px;
+  color: #a9b1d5;
+}
